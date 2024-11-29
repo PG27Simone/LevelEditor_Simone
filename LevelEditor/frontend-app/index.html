@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Level Editor</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1 id="title">Not Angry Birds :)</h1>
+
+    <div id="editor-buttons">
+
+        <div id="toolbox">
+            <button id="add-block">Add Block</button>
+            <button id="add-circle">Add Circle</button>
+            <button id="add-triangle">Add Triangle</button>
+            <button id="clear-level">Clear Editor</button>
+        </div>
+
+        <div id="editor"></div>
+
+    </div>
+
+    <div id="buttons">
+
+        <div id="buttons-1">
+            <input type="text" id="level-id" placeholder="Enter Level ID" />
+            <button id="save-level">Save Level</button>
+        </div>
+
+        <div id="buttons-2">
+            <select id="level-list">
+                <option value="">Select a level</option>
+            </select>
+            <button id="load-level">Load Level</button>
+            <button id="delete-level">Delete Level</button>
+            <button id="rename-level">Rename Level</button>
+        </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/smoothness/jquery-ui.css" />
+
+        <script src="editor.js"></script>
+
+</body>

@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+#title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#toolbox {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#clear-level {
+    margin-top: auto;
+}
+
+button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 9px;
+    border-radius: 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+}
+    button:hover {
+        opacity: 0.8;
+    }
+
+#level-id {
+    padding: 8px 10px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+#level-list {
+    padding: 8px 10px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+#editor {
+    flex: 1;
+    width: 800px;
+    height: 600px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0f0f0;
+}
+
+#editor-buttons {
+    display: flex;
+    background-color: darkgrey;
+    border: 1px solid #333;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.block{
+    width: 50px;
+    height: 50px;
+    background-color: #ff6600;
+    position: absolute;
+    cursor: move;
+}
+
+    .block:hover{
+        opacity: 0.8;
+    }
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: crimson;
+    border-radius: 50%;
+    position: absolute;
+    cursor: move;
+}
+
+    .circle:hover {
+        opacity: 0.8;
+    }
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #4800ff;
+    position: absolute;
+    cursor: move;
+}
+
+    .triangle:hover {
+        opacity: 0.8;
+    }
+
+#buttons {
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+#buttons-1 {
+    text-align: center;
+    flex: 1;
+}
+
+#buttons-2 {
+    text-align: center;
+    flex: 1;
+}
+
+#add-circle{
+    margin-top: 10px;
+}
+
+#add-triangle {
+    margin-top: 10px;
+}
+
+#editing {
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#rename {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
